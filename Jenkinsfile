@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         rname = "back"
-        rurl = 'mghirbirahma'
+        rurl = "mghirbirahma"
         imagename = "back"
-        dockerhubCredentials = 'dockerhub'  // Replace with your Docker Hub credentials ID
+        dockerhubCredentials = "dockerhub"  // Replace with your Docker Hub credentials ID
     }
 
     stages {
